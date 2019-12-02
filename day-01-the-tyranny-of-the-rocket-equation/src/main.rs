@@ -44,7 +44,7 @@ fn main() {
 
 impl Config {
     fn new(args: &[String]) -> Result<Config, &'static str> {
-        if args.len() < 3 {
+        if args.len() < 2 {
             return Err("File path is missing");
         }
 
